@@ -1133,6 +1133,12 @@ comparison_before_after.set_index("Metric").plot(
     kind="bar",
     figsize=(10, 6)
 )
+[theme]
+base = "dark"
+primaryColor = "#ff4b4b"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#fafafa"
 
 plt.title("Gradient Boosting - Before vs After Optimization")
 plt.xlabel("Metrics")

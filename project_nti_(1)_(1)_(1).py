@@ -16,6 +16,7 @@ import seaborn as sns
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
+import streamlit as st
 
 import os
 import zipfile

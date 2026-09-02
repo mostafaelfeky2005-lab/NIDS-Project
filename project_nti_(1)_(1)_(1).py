@@ -35,7 +35,7 @@ print("Files extracted successfully!")
 
 for root, dirs, files in os.walk(extract_path):
     for file in files:
-        print(os.path.join(root, file)
+        print(os.path.join(root, file))
 
 # Load parquet files correctly from the extracted folder
 train_df = pd.read_parquet(

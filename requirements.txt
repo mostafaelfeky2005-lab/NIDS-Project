@@ -1,5 +1,10 @@
 streamlit
 pandas
+numpy
+matplotlib
+seaborn
 scikit-learn
+imbalanced-learn
+xgboost
 fastparquet
 pyarrow

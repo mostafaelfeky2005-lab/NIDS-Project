@@ -1,0 +1,12 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "n_train": 3750,
+  "n_eval": 1250,
+  "data_source": "synthetic",
+  "model": "GradientBoostingClassifier",
+  "trained_at": "2026-09-02T16:42:19.511598+00:00",
+  "class_weight": "balanced (via sample_weight)"
+}

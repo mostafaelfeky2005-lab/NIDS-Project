@@ -57,8 +57,8 @@ print("Test Shape :", test_df.shape)
 
 # Preview Train and Test Data
 
-display(train_df.head())
-display(test_df.head())
+st.write(train_df.head())
+st.write(test_df.head())
 
 # Check Columns and Data Types
 
@@ -1149,7 +1149,7 @@ plt.show()
 comparison_df = pd.DataFrame(results).T
 
 print('🏆 Model Performance Comparison Table:')
-display(
+st.write(
     comparison_df.sort_values(by='F1-Score', ascending=False).style.background_gradient(
         cmap='Blues'
     )
